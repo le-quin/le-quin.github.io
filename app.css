@@ -16,6 +16,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   /* Change background on mouse-over */
@@ -24,15 +25,30 @@
     color: black;
   }
 
+
+  /* The footer */
   footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     padding: 3px;
     background-color: #E8E9ED;
     color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  footer a{
+    float: none;
+    color: #333;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
   }
   
   /* Main content */
-  .main {
-    margin-top: 50px; /* Add a top margin to avoid content overlay */
+  body {
+    margin-top: 70px; /* Add a top margin to avoid content overlay */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
