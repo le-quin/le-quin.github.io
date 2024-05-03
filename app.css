@@ -23,8 +23,16 @@
     background: #FF7B9C;
     color: black;
   }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #E8E9ED;
+    color: black;
+  }
   
   /* Main content */
   .main {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    margin-top: 50px; /* Add a top margin to avoid content overlay */
   }
+
