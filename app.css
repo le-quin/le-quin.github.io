@@ -1,11 +1,17 @@
-/* The navigation bar */
+/* The side navigation bar */
 .navbar {
-    overflow: hidden;
-    background-color: #E8E9ED;
+    /*overflow: hidden;*/
+    background-color: #FCFCFC;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    height: 50;
+    width: 100%; /* Full width */    
+    height: 100%; /* 100% Full-height */
+    width: 110px; /* 0 width - change this with JavaScript */
+    z-index: 1; /* Stay on top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    /*transition: 0.5s;  0.5 second transition effect to slide in the sidenav */
   }
   
   /* Links inside the navbar */
@@ -21,38 +27,29 @@
   
   /* Change background on mouse-over */
   .navbar a:hover {
-    background: #E8A380;
+    background: #B9B9B9;
     color: black;
   }
 
-
-  /* The footer */
-  footer {
-    position:fixed;
-    bottom:0;
-    left:0;
-    right:0;
-    height:30px;
-    width: 100%;
-    text-align: center;
-    padding: 3px;
-    background-color: #E8E9ED;
-    color: black;
-    font-family: 'Roboto Mono', monospace;
+  /* Trying to have navbar labels change color when in a certain section */
+  /*
+  .navbar a.active {
+    background-color: #4CAF50;
+    color: white;
   }
+  */
 
-  footer a{
-    float: none;
-    color: #333;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
+  section {
+    margin-top: 30px;
+    padding: 15px;
   }
   
   /* Main content */
   body {
-    margin-top: 70px; /* Add a top margin to avoid content overlay */
+    margin-left: 130px;
+    background-color: #FCFCFC;
+    /*margin-top: 70px;  Add a top margin to avoid content overlay */
     font-family: 'Roboto Mono', monospace;
-    padding-bottom: 50px;
+    padding-bottom: 50px; /* Padding bottom to leave room for footer */
   }
 
